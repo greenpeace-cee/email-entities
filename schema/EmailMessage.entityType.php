@@ -71,7 +71,7 @@ return [
         'key' => 'id',
         'on_delete' => 'CASCADE',
       ],
-      'required' => TRUE,
+      'required' => FALSE,
     ],
     'created_date' => [
       'title' => E::ts('Created Date'),
