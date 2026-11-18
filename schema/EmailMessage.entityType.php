@@ -43,7 +43,7 @@ return [
       'data_type' => 'String',
       'sql_type' => 'varchar(127)',
       'input_type' => 'Text',
-      'required' => TRUE,
+      'required' => FALSE,
     ],
     'from_email' => [
       'title' => E::ts('From (email address)'),
@@ -51,14 +51,14 @@ return [
       'data_type' => 'String',
       'sql_type' => 'varchar(127)',
       'input_type' => 'Text',
-      'required' => TRUE,
+      'required' => FALSE,
     ],
     'publish_date' => [
       'title' => E::ts('Publish Date'),
       'description' => E::ts('Date of publication'),
       'sql_type' => 'timestamp',
       'input_type' => 'Date',
-      'required' => TRUE,
+      'required' => FALSE,
     ],
     'campaign_id' => [
       'title' => E::ts('Campaign ID'),
